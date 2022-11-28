@@ -10,14 +10,14 @@ if not "%1"=="am_admin" (
 set RULE_NAME=TemporaryBlock
 set PROGRAM=D:\Bandicam\bdcam.exe
 
-:: Block the app
+:: Blocking connectivity
 netsh advfirewall firewall set rule name="%RULE_NAME%" dir=in new enable=yes
 netsh advfirewall firewall set rule name="%RULE_NAME%" dir=out new enable=yes
 
 :: Running the app
 start "" /wait "%PROGRAM%"
 
-:: Disable the firewall rules
+:: Disabling firewall rules
 netsh advfirewall firewall set rule name="%RULE_NAME%" dir=in new enable=no
 netsh advfirewall firewall set rule name="%RULE_NAME%" dir=out new enable=no
 pause
