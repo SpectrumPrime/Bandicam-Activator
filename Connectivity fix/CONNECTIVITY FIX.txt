@@ -1,0 +1,8 @@
+=====================================================================================================
+###Bandicam uses internet connection for its own reasons and that sometimes might catch you not having licensed bandicam,
+ as a result, it will pop up to register.
+================================================================================================================================================
+To solve that you will need to either block it from your windows defender manually or just run the bat exe to automatically run bandicam offline
+=================================================================================================================================================
+***NOTE**** THE "Offline Bandicam.bat" NEEDS TO BE RUNNING, YOU CAN MINIMIZE IT OR HIDE IT
+==========================================================================================
